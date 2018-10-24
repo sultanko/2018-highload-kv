@@ -17,6 +17,16 @@ dependencies {
     // Annotations for better code documentation
     compile("com.intellij:annotations:12.0")
 
+    // HTPP server
+    compile("ru.odnoklassniki:one-nio:1.0.2")
+
+    // Logging
+    compile("org.slf4j:slf4j-api:1.7.25")
+    compile("org.slf4j:slf4j-log4j12:1.7.25")
+
+    // DB
+    compile("org.mapdb:mapdb:3.0.7")
+
     // JUnit 5
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.3.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.3.1")
